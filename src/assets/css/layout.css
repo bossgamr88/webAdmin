@@ -1,0 +1,70 @@
+.root {
+  height: 100vh;
+
+}
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+    color: #fff;
+  }
+  
+  .trigger:hover {
+    color: #393B47;
+  }
+  
+  .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+  }
+  
+
+  .scroll-y-auto {
+    overflow-y: auto;
+  }
+  .margin-b-10 {
+    margin-bottom: 10px;
+  }
+  .margin-b-5 {
+    margin-bottom: 5px;
+  }
+  .margin-r-10 {
+    margin-right: 10px;
+  }
+  .margin-l-10 {
+    margin-left: 10px;
+  }
+  .margin-t-20 {
+    margin-left: 20px;
+  }
+  .margin-10 {
+    margin: 10px;
+  }
+
+  
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .height320 {
+    height: 320px;
+  }
+  .height-max-575 {
+    max-height: 575px;
+  }
+  .justify-flex-end{
+    justify-content: flex-end;
+    display: flex;
+  }
+  
+  
+  
+  .text-overflow-250{
+    white-space: nowrap; 
+    width: 250px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.css';
+@import './layout.css';
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.box-shadows {
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #282c34;
+
+}
+.titleLogin{
+  padding: 2% 0;
+  color:  #FFFFFF;
+  text-align: center;
+}
+.foolter{
+  padding: 2% 0;
+  color:  #CECECE;
+  text-align: center;
+}
+
+
+
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+audio {
+  width: 260px;
+  height: 30px;
+}
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+
+
+
+  .ant-carousel .slick-slide {
+  text-align: center;
+  height: 200px;
+  line-height: 160px;
+  background: rgb(100, 70, 31);
+  /* background: #364d79; */
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.ant-switch-checked{
+  background-color: #AE7955 !important;
+}
+
+.upload-list-inline .ant-upload-list {
+  margin-top: 5px;
+  overflow-y: auto !important;
+  max-height: 270px !important;
+}
+
+.avatar-uploader > .ant-upload {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+}
